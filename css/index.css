@@ -13,10 +13,9 @@ a {
   color: inherit;
 }
 
-html,
 body {
-  overflow-x: hidden;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 /*font&공통*/
