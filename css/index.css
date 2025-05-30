@@ -1037,7 +1037,7 @@ a {
   .contact {
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   /*inner*/
@@ -1071,14 +1071,13 @@ a {
   /*con*/
   .contact .inner .con {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: #eee;
   }
@@ -1090,6 +1089,7 @@ a {
     background-color: #fff;
     padding: 3vw;
     position: absolute;
+    top: -30vw;
   }
 
   /*h2 line01::before,::after*/
@@ -1142,7 +1142,7 @@ a {
   .contact .inner .con .txtBox {
     font-size: 4vw;
     text-align: center;
-    margin: 80px 0;
+    margin-bottom: 80px;
   }
 
   /*icons*/
@@ -2125,6 +2125,7 @@ a {
   .contact {
     width: 100%;
     height: 100vh;
+    overflow: hidden;
   }
 
   /*inner*/
@@ -2158,14 +2159,13 @@ a {
   /*con*/
   .contact .inner .con {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: #eee;
   }
@@ -2176,7 +2176,8 @@ a {
     color: #2850bd;
     background-color: #fff;
     padding: 2vw;
-    position: relative;
+    position: absolute;
+    top: -15vw;
   }
 
   /*h2 line01::before,::after*/
@@ -2229,7 +2230,7 @@ a {
   .contact .inner .con .txtBox {
     font-size: 3.5vw;
     text-align: center;
-    margin: 50px 0;
+    margin: 80px 0;
   }
 
   /*icons*/
@@ -2416,10 +2417,10 @@ a {
   /*right*/
   .intro .intro_inner .right {
     width: 50%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
   /*textBox*/
@@ -3214,6 +3215,7 @@ a {
   .contact {
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
   }
 
   /*inner*/
@@ -3247,14 +3249,13 @@ a {
   /*con*/
   .contact .inner .con {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: #eee;
   }
@@ -3265,7 +3266,8 @@ a {
     color: #2850bd;
     background-color: #fff;
     padding: 2vw;
-    position: relative;
+    position: absolute;
+    top: -10vw;
   }
 
   /*h2 line01::before,::after*/
@@ -3318,7 +3320,7 @@ a {
   .contact .inner .con .txtBox {
     font-size: 3vw;
     text-align: center;
-    margin: 100px 0;
+    margin: 50px 0;
   }
 
   /*icons*/

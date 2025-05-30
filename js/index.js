@@ -179,23 +179,23 @@ $(function () {
             //markers: true,
           },
         })
-        .fromTo(".contact .inner .con h2", { x: 2000 }, { x: 0 })
-        .fromTo(".contact .inner .con .txtBox", { x: -2000 }, { x: 0 })
+        .fromTo(".contact .inner .con h2", { x: 1000 }, { x: 0 })
+        .fromTo(".contact .inner .con .txtBox", { x: -1000 }, { x: 0 })
         .fromTo(
           ".contact .inner .con .icons li:first-child",
-          { y: 2000 },
+          { y: 100 },
           { y: 0 },
           1
         )
         .fromTo(
           ".contact .inner .con .icons li:nth-child(2)",
-          { y: 2000 },
+          { y: 100 },
           { y: 0 },
           1.2
         )
         .fromTo(
           ".contact .inner .con .icons li:last-child",
-          { y: 2000 },
+          { y: 100 },
           { y: 0 },
           1.4
         );
@@ -206,45 +206,45 @@ $(function () {
       gsap.fromTo(
         /*intro*/
         ".intro .intro_inner .left .picture",
-        { x: -2000 },
+        { x: -1000 },
         { x: 0, duration: 1 }
       );
 
       gsap.fromTo(
         ".intro .intro_inner .right .textBox",
-        { x: 2000, y: -100 },
-        { x: 0, y: -100, duration: 1 }
+        { x: 1000, y: -100 },
+        { x: 50, y: -100, duration: 1 }
       );
 
       let t1 = gsap.timeline();
       t1.fromTo(
         ".intro .intro_inner .right .info li:first-child",
-        { y: 1000 },
-        { y: 0, duration: 1 },
+        { x: 100, y: 1000 },
+        { x: 100, y: 0, duration: 1 },
         0.2
       );
       t1.fromTo(
         ".intro .intro_inner .right .info li:nth-child(2)",
-        { y: 1000 },
-        { y: 0, duration: 1 },
+        { x: 100, y: 1000 },
+        { x: 100, y: 0, duration: 1 },
         0.4
       );
       t1.fromTo(
         ".intro .intro_inner .right .info li:nth-child(3)",
-        { y: 1000 },
-        { y: 0, duration: 1 },
+        { x: 100, y: 1000 },
+        { x: 100, y: 0, duration: 1 },
         0.6
       );
       t1.fromTo(
         ".intro .intro_inner .right .info li:nth-child(4)",
-        { y: 1000 },
-        { y: 0, duration: 1 },
+        { x: 100, y: 1000 },
+        { x: 100, y: 0, duration: 1 },
         0.8
       );
       t1.fromTo(
         ".intro .intro_inner .right .info li:last-child",
-        { y: 1000 },
-        { y: 0, duration: 1 },
+        { x: 100, y: 1000 },
+        { x: 100, y: 0, duration: 1 },
         1
       );
 
@@ -304,23 +304,23 @@ $(function () {
             //markers: true,
           },
         })
-        .fromTo(".contact .inner .con h2", { x: 2000 }, { x: 0 })
-        .fromTo(".contact .inner .con .txtBox", { x: -2000 }, { x: 0 })
+        .fromTo(".contact .inner .con h2", { x: 1000 }, { x: 0 })
+        .fromTo(".contact .inner .con .txtBox", { x: -1000 }, { x: 0 })
         .fromTo(
           ".contact .inner .con .icons li:first-child",
-          { y: 2000 },
+          { y: 200 },
           { y: 0 },
           1
         )
         .fromTo(
           ".contact .inner .con .icons li:nth-child(2)",
-          { y: 2000 },
+          { y: 200 },
           { y: 0 },
           1.2
         )
         .fromTo(
           ".contact .inner .con .icons li:last-child",
-          { y: 2000 },
+          { y: 200 },
           { y: 0 },
           1.4
         );
@@ -429,8 +429,8 @@ $(function () {
             //markers: true,
           },
         })
-        .fromTo(".contact .inner .con h2", { x: 2000 }, { x: 0 })
-        .fromTo(".contact .inner .con .txtBox", { x: -2000 }, { x: 0 })
+        .fromTo(".contact .inner .con h2", { x: 1000 }, { x: 0 })
+        .fromTo(".contact .inner .con .txtBox", { x: -1000 }, { x: 0 })
         .fromTo(
           ".contact .inner .con .icons li:first-child",
           { y: 2000 },
