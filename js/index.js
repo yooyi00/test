@@ -179,8 +179,8 @@ $(function () {
             //markers: true,
           },
         })
-        .fromTo(".contact .inner .con h2", { x: 0 }, { x: 0 })
-        .fromTo(".contact .inner .con .txtBox", { x: 0 }, { x: 0 })
+        .fromTo(".contact .inner .con h2", { x: 2000 }, { x: 0 })
+        .fromTo(".contact .inner .con .txtBox", { x: -2000 }, { x: 0 })
         .fromTo(
           ".contact .inner .con .icons li:first-child",
           { y: 2000 },
@@ -429,8 +429,8 @@ $(function () {
             //markers: true,
           },
         })
-        .fromTo(".contact .inner .con h2", { x: 2000 }, { x: 0 })
-        .fromTo(".contact .inner .con .txtBox", { x: -2000 }, { x: 0 })
+        .fromTo(".contact .inner .con h2", { x: 0 }, { x: 0 })
+        .fromTo(".contact .inner .con .txtBox", { x: 0 }, { x: 0 })
         .fromTo(
           ".contact .inner .con .icons li:first-child",
           { y: 2000 },
