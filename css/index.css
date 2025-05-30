@@ -13,11 +13,11 @@ a {
   color: inherit;
 }
 
-body {
+/* html,body {
   max-width: 100%;
   width: 100%;
   overflow-x: hidden;
-}
+} */
 
 /*font&공통*/
 @font-face {
