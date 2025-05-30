@@ -254,6 +254,7 @@ a {
   /*textBox*/
   .intro .intro_inner .right .textBox {
     width: 92%;
+    overflow-x: hidden;
   }
 
   /*title*/
@@ -1036,6 +1037,7 @@ a {
   .contact {
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
   }
 
   /*inner*/
@@ -1087,7 +1089,7 @@ a {
     color: #2850bd;
     background-color: #fff;
     padding: 3vw;
-    position: relative;
+    position: absolute;
   }
 
   /*h2 line01::before,::after*/
